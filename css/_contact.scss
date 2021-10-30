@@ -1,0 +1,31 @@
+.contact{
+    height: 100%;
+    padding-top: 40vh;
+    padding-left: 2.5rem;
+    overflow: hidden;
+    align-items: center;
+    background: linear-gradient(
+        to left,
+        rgba(black, 0.9),
+        rgba($primary-color, 0.7)
+    ),
+    url("../Images/pexels-william-fortunato-6393342.jpg") no-repeat center  top ;
+    background-size: cover;
+
+    h2{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &_list{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        font-size: 1.15rem;
+    }
+    
+    .social-icons{
+        position: initial;
+        margin-top: 1.2rem;
+    }
+}
